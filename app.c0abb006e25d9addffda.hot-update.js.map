@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./_src/js/app.js"],"names":["closure"],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;;AAEA,CAAC,SAASA,OAAT,GAAmB,CAAE,CAAtB,I","file":"app.c0abb006e25d9addffda.hot-update.js","sourcesContent":["import '../scss/app.scss';\n\n(function closure() {})();\n"],"sourceRoot":""}
