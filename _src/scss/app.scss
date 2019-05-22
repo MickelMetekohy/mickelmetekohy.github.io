@@ -27,6 +27,11 @@
     &.technology {
       background-color: $white;
     }
+    .desc {
+      display: inline-block;
+      max-width: 600px;
+      font-size: 0.75em;
+    }
   }
 }
 
