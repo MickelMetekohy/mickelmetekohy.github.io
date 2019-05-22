@@ -1,0 +1,56 @@
+// @import "~@fortawesome/fontawesome-free/scss/solid.scss";
+// @import "~@fortawesome/fontawesome-free/scss/regular.scss";
+// @import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "variables";
+@import "mixins";
+@import "base";
+@import "buttons";
+@import "icon";
+
+#site-content {
+  > section {
+    background-color: $minionYellow;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6vh 32px;
+    .tag {
+      font-size: 2em;
+    }
+    &.intro {
+      min-height: 88vh;
+      padding: 0 32px;
+    }
+    &.technology {
+      background-color: $white;
+    }
+  }
+}
+
+.profiles, .tech, .work {
+  list-style-type: none;
+  padding: 16px 0;
+  .icon {
+    padding: 8px;
+    &::before, i {
+      font-size: 3em;
+      padding: 8px;
+    }
+  }
+}
+.work {
+  li {
+    display: block;
+  }
+  .icon {
+    span:first-of-type {
+      text-decoration: underline;
+    }
+    &::before, i {
+      font-size: 1em;
+    }
+  }
+}

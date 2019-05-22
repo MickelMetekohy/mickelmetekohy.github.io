@@ -1,0 +1,37 @@
+  .icon {
+    text-decoration: none;
+    color: $black;
+    display: inline-block;
+    transition: all .25s ease;
+    &::before, i {
+      font-family: "Font Awesome 5 Brands";
+      font-weight: 400;
+      color: $black;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+    }
+    .fas {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+    }
+    &[href*="linkedin.com"]::before {content: '\f0e1';}
+    &[href*="github.com"]::before {content: '\f09b';}
+    &[href*="instagram.com"]::before {content: '\f16d';}
+    &[href*="stackoverflow.com"]::before {content: '\f16c';}
+    &[href*="wordpress.com"]::before {content: '\f19a';}
+    &[href*="youtube.com"]::before {content: '\f167';}
+    &[href*="codepen.io"]::before {content: '\f1cb';}
+    &[href*="freecodecamp.org"]::before {content: '\f2c5';}
+    &[href*="twitter.com"]::before {content: '\f099';}
+    &[href*="facebook.com"]::before {content: "\f09a";}
+    &[href*="jsfiddle.com"]::before {content: '\f1cc';}
+    &[href*="pinterest.com"]::before {content: '\f0d2';}
+    &[href*="reddit.com"]::before {content: '\f1a1';}
+    &[href*="soundcloud.com"]::before {content: '\f1be';}
+    &[href*="vimeo.com"]::before {content: '\f194';}
+    &[href*="yelp.com"]::before {content: '\f1e9';}
+  }
+

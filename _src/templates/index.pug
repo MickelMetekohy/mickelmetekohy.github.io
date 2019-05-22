@@ -1,0 +1,169 @@
+//- index.pug
+//- extends layouts/default.pug
+
+//- page variables
+//- block pageVariables
+  - title = "Coolidge Corner";
+  - metaAuthor = "Mickel Metekohy, mkr.metekohy@gmail.com";
+  - metaDescription = "";
+  - bodyClass = "";
+  - page = "index";
+  - pageType = 'sub-page';
+  - pageClass = 'theater-page';
+
+//- block prepend head
+//- block head
+//- block append head
+
+//- block prepend header
+//- block header
+//- block append header
+
+//- block content
+
+//- block prepend footer
+//- block footer
+//- block append footer
+
+//- block prepend scripts
+//- block scripts
+//- block append scripts
+
+extends layouts/default.pug
+
+//- page variables
+block pageVariables
+  - title = '';
+  - page = 'index';
+  - pageType = 'home-page';
+  - pageClass = 'home-page';
+
+block content
+
+  main#site-content
+    section.intro
+      h1.title Hello, I'm Mickel!
+
+      div.tag Please allow me to share my passion for code.
+
+      div.profiles
+        a.icon(target="_blank" href="https://www.linkedin.com/in/mickelmetekohy")
+          span.sr-only www.linkedin.com/in/mickelmetekohy
+        a.icon(target="_blank" href="https://github.com/MickelMetekohy")
+          span.sr-only github.com/MickelMetekohy
+
+    section.technology
+      h2.title In the passed years I’ve explored many technologies.
+
+      ul.tech
+        li.icon
+          i(aria-hidden="true" class="fab fa-html5")
+          span HTML
+        li.icon
+          i(aria-hidden="true" class="fab fa-css3")
+          span CSS
+        li.icon
+          i(aria-hidden="true" class="fab fa-js")
+          span Javascript
+        li.icon
+          i(aria-hidden="true" class="fas fa-code")
+          span Typescript
+        li.icon
+          i(aria-hidden="true" class="fab fa-npm")
+          span NPM
+        li.icon
+          i(aria-hidden="true" class="fas fa-code")
+          span Webpack
+        li.icon
+          i(aria-hidden="true" class="fab fa-sass")
+          span SASS
+        li.icon
+          i(aria-hidden="true" class="fab fa-git")
+          span GIT
+        li.icon
+          i(aria-hidden="true" class="fab fa-github")
+          span Github
+        li.icon
+          i(aria-hidden="true" class="fas fa-code")
+          span Angular
+        li.icon
+          i(aria-hidden="true" class="fab fa-angular")
+          span Redux
+        li.icon
+          i(aria-hidden="true" class="fas fa-code")
+          span Firebase
+        li.icon
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span WordPress
+        li.icon
+          i(aria-hidden="true" class="fab fa-php")
+          span PHP
+        li.icon
+          i(aria-hidden="true" class="fas fa-code")
+          span MySQL
+        li.icon
+          i(aria-hidden="true" class="fas fa-code")
+          span Pug
+
+
+    section.portfolio
+      h2.title Here are some experiences I’ve collaborated on.
+
+      ul.work
+        li: a.icon(target="_blank" href="https://bwod.mickelmetekohy.com")
+          i(aria-hidden="true" class="fab fa-angular")
+          span bwod.mickelmetekohy.com
+
+        li: a.icon(target="_blank" href="https://dme.childrenshospital.org")
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span dme.childrenshospital.org
+
+        li: a.icon(target="_blank" href="https://www.t2biosystems.com")
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span www.t2biosystems.com
+
+        li.icon
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span Idexx Preventive Care Challenge, Westbrook ME.
+          br
+          span WordPress based web-app to assist VDC's with Preventive Care sales and help veterinarians to provide their patients with the highest level of care, while increasing revenue.
+
+        li: a.icon(target="_blank" href="https://bostonlax.net")
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span bostonlax.net
+
+        li: a.icon(target="_blank" href="https://www.pancommunications.com")
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span www.pancommunications.com
+
+        li: a.icon(target="_blank" href="https://simpeds.org")
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span simpeds.org
+
+        li: a.icon(target="_blank" href="https://www.lifespan.org/find-a-doctor")
+          i(aria-hidden="true" class="fas fa-code")
+          span www.lifespan.org/find-a-doctor
+
+        li: a.icon(target="_blank" href="https://www.openpediatrics.org")
+          i(aria-hidden="true" class="fas fa-code")
+          span www.openpediatrics.org
+
+        li: a.icon(target="_blank" href="https://thriving.childrenshospital.org")
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span thriving.childrenshospital.org
+
+        li: a.icon(target="_blank" href="https://vector.childrenshospital.org")
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span vector.childrenshospital.org
+
+        li: a.icon(target="_blank" href="http://petlyplans.com")
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span petlyplans.com
+
+        li: a.icon(target="_blank" href="http://idexxneo.com")
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span idexxneo.com
+
+        li: a.icon(target="_blank" href="http://idexxcornerstone.com")
+          i(aria-hidden="true" class="fab fa-wordpress")
+          span idexxcornerstone.com

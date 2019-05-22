@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: $black;
+}
+@media (min-width: 576px) {
+	html, body {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html, body {
+		font-size: 17px;
+	}
+}
+
+@media (min-width: 992px) {
+	html, body {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html, body {
+		font-size: 23px;
+	}
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.6em;
+}
+h4 {
+  font-size: 1.4em;
+}
+h5 {
+  font-size: 1.2em;
+}
+h6 {
+  font-size: 1em;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

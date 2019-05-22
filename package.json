@@ -1,0 +1,55 @@
+{
+  "name": "coolidge-corner",
+  "version": "2.0.0",
+  "description": "",
+  "author": "Mickel Metekohy <mkr.metekohy@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --open --mode=development",
+    "watch": "webpack --watch --mode=development",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production"
+  },
+  "license": "MIT",
+  "sideEffects": [
+    "*.scss",
+    "*.css"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.1",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-inline-svg-plugin": "^1.2.4",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-webpack-plugin": "^2.4.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.16.4",
+    "pug-html-loader": "^1.1.5",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-manifest-plugin": "^2.0.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.4.7"
+  }
+}

@@ -1,0 +1,33 @@
+//- default.pug
+
+//- include template parts
+//- include ../partials/mix-breadcrumbs.pug
+
+//- site variables
+- site_url = 'http://mickelmetekohy.github.io';
+
+block pageVariables
+  - title = "Mickel Metekohy";
+  - metaAuthor = "Mickel Metekohy, mkr.metekohy@gmail.com";
+  - metaDescription = "";
+  - bodyClass = "";
+  - page = "index";
+  - pageType = 'sub-page';
+  - pageClass = 'sub-page';
+
+doctype html
+html(lang="en")
+
+  block head
+    include ../partials/head.pug
+
+  body(class= bodyClass)
+    div#site-wrapper(class= pageClass + ' ' + pageType)
+
+      block header
+
+      block content
+
+      block footer
+
+    block scripts
