@@ -1,6 +1,7 @@
 {
-  "app.css": "css/app.b67459ba4149abf37ad1.css",
+  "app.css": "css/app.feec90dbaad836892b1d.css",
   "app.js": "js/app.bundle.js",
+  "CNAME": "CNAME",
   "README.md": "README.md",
   "fonts/.gitkeep": "fonts/.gitkeep",
   "images/android-icon-192x192.png": "images/android-icon-192x192.png",
@@ -16,6 +17,7 @@
   "images/favicon-16x16.png": "images/favicon-16x16.png",
   "images/favicon-32x32.png": "images/favicon-32x32.png",
   "images/favicon-96x96.png": "images/favicon-96x96.png",
+  "images/manifest.json": "images/manifest.json",
   "images/screenshot.png": "images/screenshot.png",
   "index.html": "index.html"
 }
