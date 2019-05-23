@@ -169,6 +169,10 @@ module.exports = (env, argv) => {
         from: path.resolve(__dirname, 'README.md'),
         to: path.resolve(__dirname, '_dist/README.md'),
       },
+      {
+        from: path.resolve(__dirname, '_src/images/screenshot.png'),
+        to: path.resolve(__dirname, '_dist/images/screenshot.png'),
+      },
     ]),
     // new webpack.ProvidePlugin({
     //   $: 'jquery',
