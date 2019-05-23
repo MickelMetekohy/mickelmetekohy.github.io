@@ -168,6 +168,17 @@ module.exports = (env, argv) => {
       {
         from: path.resolve(__dirname, 'README.md'),
         to: path.resolve(__dirname, '_dist/README.md'),
+        toType: 'file',
+      },
+      {
+        from: path.resolve(__dirname, 'CNAME'),
+        to: path.resolve(__dirname, '_dist/CNAME'),
+        toType: 'file',
+      },
+      {
+        from: path.resolve(__dirname, '_src/images/favicons/manifest.json'),
+        to: path.resolve(__dirname, '_dist/images/manifest.json'),
+        toType: 'file',
       },
       {
         from: path.resolve(__dirname, '_src/images/screenshot.png'),
