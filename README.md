@@ -20,9 +20,6 @@ License: [MIT](https://choosealicense.com/licenses/mit/)
 * [Pugjs](https://pugjs.org/api/getting-started.html)
 * [JS](https://developer.mozilla.org/bm/docs/Web/JavaScript)
 * [scss](https://sass-lang.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [jquery](https://jquery.com/)
-* [Slick-slider](http://kenwheeler.github.io/slick/)
 
 ## Setup
 
@@ -53,7 +50,6 @@ License: [MIT](https://choosealicense.com/licenses/mit/)
   * all components are imported to app.scss
   * app.scss is imported to app.js so webpack can bundle it
   * scss bundle output is in _dist/css/
-  * please use BEM [http://getbem.com/](http://getbem.com/) (note to self)
 * JS:
   * in the _src/js folder
   * all libraries and components are imported to app.js
@@ -61,12 +57,14 @@ License: [MIT](https://choosealicense.com/licenses/mit/)
 * FONTS
   * in the _src/fonts folder
   * images folder will be copied to _dist
-* PACKAGES
-  * jquery
-  * bootstrap
-  * slick-carousel
 
 Study package.json and webpack.config.js for more details.
+
+### github
+
+* Complete project lives in the "develop" branch
+* Master branch is used to host a subtree on [gh-username].github.io
+  * `git subtree push --prefix _dist origin master`
 
 ### `npm run` scripts
 
