@@ -1,5 +1,5 @@
 {
-  "app.css": "css/app.1f6a9780379def7757b5.css",
+  "app.css": "css/app.b67459ba4149abf37ad1.css",
   "app.js": "js/app.bundle.js",
   "README.md": "README.md",
   "fonts/.gitkeep": "fonts/.gitkeep",
@@ -16,5 +16,6 @@
   "images/favicon-16x16.png": "images/favicon-16x16.png",
   "images/favicon-32x32.png": "images/favicon-32x32.png",
   "images/favicon-96x96.png": "images/favicon-96x96.png",
+  "images/screenshot.png": "images/screenshot.png",
   "index.html": "index.html"
 }
