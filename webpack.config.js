@@ -166,13 +166,21 @@ module.exports = (env, argv) => {
         to: path.resolve(__dirname, '_dist/fonts'),
       },
       {
+        // need for github pages
         from: path.resolve(__dirname, 'README.md'),
         to: path.resolve(__dirname, '_dist/README.md'),
         toType: 'file',
       },
       {
+        // need for github pages
         from: path.resolve(__dirname, 'CNAME'),
         to: path.resolve(__dirname, '_dist/CNAME'),
+        toType: 'file',
+      },
+      {
+        // need for github pages
+        from: path.resolve(__dirname, '.gitignore'),
+        to: path.resolve(__dirname, '_dist/.gitignore'),
         toType: 'file',
       },
       {

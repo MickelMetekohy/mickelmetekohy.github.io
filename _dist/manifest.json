@@ -1,6 +1,7 @@
 {
   "app.css": "css/app.feec90dbaad836892b1d.css",
   "app.js": "js/app.bundle.js",
+  ".gitignore": ".gitignore",
   "CNAME": "CNAME",
   "README.md": "README.md",
   "fonts/.gitkeep": "fonts/.gitkeep",
