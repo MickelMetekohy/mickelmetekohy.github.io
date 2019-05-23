@@ -165,12 +165,16 @@ module.exports = (env, argv) => {
         from: path.resolve(__dirname, '_src/fonts'),
         to: path.resolve(__dirname, '_dist/fonts'),
       },
+      {
+        from: path.resolve(__dirname, 'README.md'),
+        to: path.resolve(__dirname, '_dist/README.md'),
+      },
     ]),
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      jQuery: 'jquery',
-      'window.jQuery': 'jquery',
-    }),
+    // new webpack.ProvidePlugin({
+    //   $: 'jquery',
+    //   jQuery: 'jquery',
+    //   'window.jQuery': 'jquery',
+    // }),
     new ImageminPlugin({
       optipng: { optimizationLevel: 7 },
       gifsicle: { optimizationLevel: 3 },
