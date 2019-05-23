@@ -184,8 +184,18 @@ module.exports = (env, argv) => {
         toType: 'file',
       },
       {
-        from: path.resolve(__dirname, '_src/images/favicons/manifest.json'),
-        to: path.resolve(__dirname, '_dist/images/manifest.json'),
+        from: path.resolve(__dirname, '_src/images/favicons/site.webmanifest'),
+        to: path.resolve(__dirname, '_dist/images/site.webmanifest'),
+        toType: 'file',
+      },
+      {
+        from: path.resolve(__dirname, '_src/images/favicons/browserconfig.xml'),
+        to: path.resolve(__dirname, '_dist/images/browserconfig.xml'),
+        toType: 'file',
+      },
+      {
+        from: path.resolve(__dirname, '_src/images/favicons/mstile-150x150.png'),
+        to: path.resolve(__dirname, '_dist/images/mstile-150x150.png'),
         toType: 'file',
       },
       {
