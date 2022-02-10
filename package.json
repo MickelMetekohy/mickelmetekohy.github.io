@@ -38,7 +38,7 @@
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-webpack-plugin": "^2.4.1",
     "mini-css-extract-plugin": "^0.5.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.16.4",
     "pug-html-loader": "^1.1.5",
